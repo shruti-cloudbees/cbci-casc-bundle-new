@@ -3,7 +3,7 @@ removeStrategy:
   items: NONE
 items:
   - kind: freeStyle
-    name: TestJob
+    name: TestJobMerge
     blockBuildWhenDownstreamBuilding: false
     blockBuildWhenUpstreamBuilding: false
     builders:
@@ -12,7 +12,7 @@ items:
     concurrentBuild: false
     description: ""
     disabled: false
-    displayName: TestJob
+    displayName: TestJobMerge
     label: agent1
     scm:
       none: {}
