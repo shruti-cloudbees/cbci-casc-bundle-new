@@ -1,0 +1,35 @@
+removeStrategy:
+  items: none
+  rbac: sync
+items:
+  - kind: folder
+    name: Folder1
+    description: ""
+    displayName: Folder1
+    items:
+      - kind: pipeline
+        name: TestPipelineFolder1
+        concurrentBuild: true
+        definition:
+          cpsFlowDefinition:
+            sandbox: true
+            script: |
+              pipeline {
+                  agent any
+
+                  stages {
+                      stage('Hello') {
+                          steps {
+                              echo 'Hello World'
+                          }
+                      }
+                  }
+              }
+        description: ""
+        disabled: false
+        displayName: TestPipelineFolder1
+        resumeBlocked: false
+    properties:
+      - envVars: {}
+      - itemRestrictions:
+          filter: false
