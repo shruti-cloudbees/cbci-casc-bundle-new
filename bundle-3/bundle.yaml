@@ -5,8 +5,6 @@ version: "1"
 parent: "bundle-global"
 plugins:
   - "plugins.yaml"
-jcasc:
-  - "jenkins.yaml"
 catalog:
   - "plugin-catalog.yaml"
 variables:
