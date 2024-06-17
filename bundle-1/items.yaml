@@ -7,6 +7,13 @@ items:
     description: ""
     displayName: Folder1
     items:
+      - kind: freeStyle
+        name: TestJob
+        blockBuildWhenDownstreamBuilding: false
+        blockBuildWhenUpstreamBuilding: false
+        builders:
+          - shell:
+              command: echo "Hello World - 2 - Date June 17th"
       - kind: pipeline
         name: TestPipelineFolder1
         concurrentBuild: true
