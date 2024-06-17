@@ -7,4 +7,5 @@ configurations:
     includePlugins:
       chucknorris:
         version: "1.4"
-        
+      beer:
+        url: https://updates.jenkins.io/download/plugins/beer/42.v776b_04d96de3/beer.hpi
