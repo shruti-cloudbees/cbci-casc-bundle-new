@@ -3,16 +3,16 @@ removeStrategy:
   items: NONE
 items:
   - kind: freeStyle
-    name: TestJobMerge
+    name: TestJob
     blockBuildWhenDownstreamBuilding: false
     blockBuildWhenUpstreamBuilding: false
     builders:
       - shell:
-          command: echo "Hello World"
+          command: echo "Hello World - Date June 17th"
     concurrentBuild: false
     description: ""
     disabled: false
-    displayName: TestJobMerge
+    displayName: TestJob
     label: agent1
     scm:
       none: {}
