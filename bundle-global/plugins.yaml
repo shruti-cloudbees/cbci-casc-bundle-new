@@ -52,7 +52,6 @@ plugins:
   - id: github
   - id: github-api
   - id: github-branch-source
-  - id: gradle
   - id: handy-uri-templates-2-api
   - id: infradna-backup
   - id: jackson2-api
