@@ -14,29 +14,3 @@ items:
     builders:
       - shell:
           command: echo "Hello World - 2 - Date June 17th"
-  - kind: pipeline
-    name: TestPipelineFolder1
-    concurrentBuild: true
-    definition:
-      cpsFlowDefinition:
-        sandbox: true
-        script: |
-          pipeline {
-              agent any
-
-              stages {
-                  stage('Hello') {
-                      steps {
-                          echo 'Hello World'
-                      }
-                  }
-              }
-          }
-    description: ""
-    disabled: false
-    displayName: TestPipelineFolder1
-    resumeBlocked: false
-properties:
-  - envVars: {}
-  - itemRestrictions:
-      filter: false
