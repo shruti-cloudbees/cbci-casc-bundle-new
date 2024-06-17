@@ -1,0 +1,42 @@
+removeStrategy:
+  rbac: SYNC
+  items: NONE
+items:
+  - kind: freeStyle
+    name: TestJob
+    blockBuildWhenDownstreamBuilding: false
+    blockBuildWhenUpstreamBuilding: false
+    builders:
+      - shell:
+          command: echo "Hello World"
+    concurrentBuild: false
+    description: ""
+    disabled: false
+    displayName: TestJob
+    label: agent1
+    scm:
+      none: {}
+    scmCheckoutStrategy:
+      standard: {}
+  - kind: pipeline
+    name: TestPipeline
+    concurrentBuild: true
+    definition:
+      cpsFlowDefinition:
+        sandbox: true
+        script: |
+          pipeline {
+              agent any
+
+              stages {
+                  stage('Hello') {
+                      steps {
+                          echo 'Hello World!!'
+                      }
+                  }
+              }
+          }
+    description: ""
+    disabled: false
+    displayName: TestPipeline
+    resumeBlocked: false
