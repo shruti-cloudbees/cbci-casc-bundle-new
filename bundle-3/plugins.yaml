@@ -1,2 +1,18 @@
 plugins:
-- {id: beer}
+  # In CloudBees Assurance Program (CAP)
+  - id: "bitbucket-branch-source"
+  - id: "branch-api"
+  - id: "cloudbees-casc-client"
+  - id: "cloudbees-casc-items-api"
+  - id: "cloudbees-casc-items-commons"
+  - id: "cloudbees-casc-items-controller"
+  - id: "cloudbees-template"
+  - id: "cloudbees-workflow-template"
+  - id: "configuration-as-code"
+  - id: "git"
+  - id: "github-branch-source"
+  - id: "infradna-backup"
+  - id: "support-core"
+  - id: "workflow-multibranch"
+  # Not in CAP (see plugin-catalog.yaml)
+  - id: "manage-permission"
