@@ -7,7 +7,7 @@ items:
     description: ""
     displayName: Folder1
   - kind: freeStyle
-    name: TestJob
+    name: TestJob2
     blockBuildWhenDownstreamBuilding: false
     blockBuildWhenUpstreamBuilding: false
     builders:
