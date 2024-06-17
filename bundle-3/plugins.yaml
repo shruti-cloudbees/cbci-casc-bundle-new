@@ -16,3 +16,4 @@ plugins:
   - id: "workflow-multibranch"
   # Not in CAP (see plugin-catalog.yaml)
   - id: "manage-permission"
+  - id: "beer"
