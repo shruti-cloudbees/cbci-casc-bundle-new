@@ -1,5 +1,0 @@
-unclassified:
-  cloudbeesPipelineExplorer:
-    autoPollingEnabled: true
-    autoPollingIntervalSeconds: 10
-    enabled: true
