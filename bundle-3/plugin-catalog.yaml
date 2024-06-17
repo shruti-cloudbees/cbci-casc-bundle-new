@@ -1,10 +1,14 @@
-pluginCatalog:
-  version: '1'
-  plugins:
-    recommended:
-      plugins:
-        - id: "beer"
-          version: "42.v776b_04d96de3"
-  updateCenters:
-    - id: "default"
-      url: "https://updates.jenkins.io/update-center.json"
+type: "plugin-catalog"
+version: "1" 
+name: "my-plugin-catalog"
+displayName: "My Plugin Catalog"
+configurations:
+  - description: "Extensions to CAP"
+    includePlugins:
+      manage-permission: 
+        version: 1.0.1   
+      beer:
+        url: https://updates.jenkins.io/download/plugins/beer/42.v776b_04d96de3/beer.hpi 
+    beekeeperExceptions: 
+      support-core:
+        version: "2.70"
