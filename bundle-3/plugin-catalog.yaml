@@ -1,0 +1,10 @@
+pluginCatalog:
+  version: '1'
+  plugins:
+    recommended:
+      plugins:
+        - id: "beer"
+          version: "42.v776b_04d96de3"
+  updateCenters:
+    - id: "default"
+      url: "https://updates.jenkins.io/update-center.json"
