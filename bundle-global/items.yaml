@@ -8,7 +8,7 @@ items:
     blockBuildWhenUpstreamBuilding: false
     builders:
       - shell:
-          command: echo "Hello World - Date June 17th"
+          command: echo "Hello World - Date June 18th"
     concurrentBuild: false
     description: ""
     disabled: false
