@@ -6,10 +6,6 @@ items:
     name: Folder1
     description: ""
     displayName: Folder1
-  - kind: folder
-    name: Folder2
-    description: ""
-    displayName: Folder2
   - kind: freeStyle
     name: TestJob2
     blockBuildWhenDownstreamBuilding: false
