@@ -6,3 +6,7 @@ items:
     name: Folder2
     description: ""
     displayName: Folder2
+  - kind: folder
+    name: Folder-new
+    description: ""
+    displayName: Folder-new
