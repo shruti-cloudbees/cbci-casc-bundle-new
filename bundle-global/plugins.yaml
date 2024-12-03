@@ -117,3 +117,4 @@ plugins:
   - id: configuration-as-code
   - id: cloudbees-pipeline-explorer
   - id: bitbucket
+  - id: beer
