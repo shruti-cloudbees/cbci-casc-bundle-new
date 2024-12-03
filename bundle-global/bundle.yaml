@@ -1,7 +1,6 @@
 id: "bundle-global"
-apiVersion: "2"
+apiVersion: "1"
 version: "8"
-availabilityPattern: '.*'
 description: "CasC parent bundle with common configuration elements"
 jcasc:
   - "jenkins.yaml"
