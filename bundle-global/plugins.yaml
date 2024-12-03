@@ -116,3 +116,4 @@ plugins:
   - id: cloudbees-casc-api
   - id: configuration-as-code
   - id: cloudbees-pipeline-explorer
+  - id: beer
