@@ -2,22 +2,6 @@ removeStrategy:
   rbac: SYNC
   items: NONE
 items:
-  - kind: freeStyle
-    name: TestJob
-    blockBuildWhenDownstreamBuilding: false
-    blockBuildWhenUpstreamBuilding: false
-    builders:
-      - shell:
-          command: echo "Hello World - Date June 18th"
-    concurrentBuild: false
-    description: ""
-    disabled: false
-    displayName: TestJob
-    label: agent1
-    scm:
-      none: {}
-    scmCheckoutStrategy:
-      standard: {}
   - kind: pipeline
     name: TestPipeline
     concurrentBuild: true
