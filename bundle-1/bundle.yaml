@@ -1,8 +1,9 @@
 id: "bundle-1"
-version: "1"
-apiVersion: "2"
+version: '1'
+apiVersion: '2'
 description: "CasC child bundle 1"
-parent: "bundle-global"
+availabilityPattern: '.*'
+parent: 'bundle-global'
 items:
   - "items.yaml"
 plugins:
